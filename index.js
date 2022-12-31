@@ -1,13 +1,5 @@
-function myInformation(Name, Height, Country) {
-  alert(
-    "Name: Randy Gallegos\n" +
-      "Height: 6 Feet\n" +
-      "Country: United States of America"
-  );
+function myInformation(name, height, country) {
+  alert(name + height + country);
 }
 
-myInformation(
-  "Name: Randy Gallegos",
-  "Height: 6 Feet",
-  "Country: United States of America"
-);
+myInformation("Randy Gallegos", "6 feet 0 inches", "United States of America");
